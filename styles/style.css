@@ -4,7 +4,9 @@ a {
 }
 
 .footer__column-links {
-  list-style: none; margin: 0; padding: 0; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
@@ -69,7 +71,7 @@ a {
   font-style: normal;
   position: absolute;
   left: 64px;
-  bottom: 30px; 
+  bottom: 30px;
   z-index: 3;
   margin: auto;
 }
