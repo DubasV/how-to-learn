@@ -1,14 +1,3 @@
-a {
-  color: #2f80ed;
-  text-decoration:none;
-}
-
-.footer__column-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -76,6 +65,11 @@ a {
   margin: auto;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration:none;
+}
+
 .header__main-illustration {
   height: 608px;
   width: 765px;
@@ -132,7 +126,7 @@ a {
   margin: 0 0 30px 0;
 }
 
-.two-columns_paragraph:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0px;
 }
 
@@ -242,7 +236,9 @@ a {
   position: absolute;
   top: 50%;
   bottom: 50%;
-  right: 48px; 
+  right: 48px;
+  color: #2f80ed;
+  text-decoration:none; 
 }
 
 .kaufman {
@@ -317,7 +313,6 @@ a {
 .footer__author {
   margin-top: 18px;
   margin-bottom: 18px;
-  margin: 0;
   color: white;
   font-size: 18px;
   line-height: 25px;
@@ -363,6 +358,13 @@ a {
   top: 2px;
 }
 
+.footer__column-links {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
 .footer__column-link {
   color: white;
   margin: 0;
@@ -372,6 +374,3 @@ a {
   text-decoration: none;
 }
 
-.footer__column-link:last-of-type {
-  margin-bottom: 16px;
-}
