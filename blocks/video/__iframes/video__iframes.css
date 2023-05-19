@@ -1,5 +1,4 @@
 .video__iframes {
     display: flex;
-    min-height: 316px;
     position: relative;
 }
